@@ -1,0 +1,13 @@
+ktor:
+    application:
+        modules:
+            - com.infogain.ApplicationKt.module
+    deployment:
+        port: 8080
+database:
+  ##jdbcUrl: "jdbc:postgresql://host.docker.internal:5442/test"
+  jdbcUrl: "jdbc:postgresql://localhost:5432/test"
+  username: postgres
+  password: postgres
+  driverClassName: org.postgresql.Driver
+
