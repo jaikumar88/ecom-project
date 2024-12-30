@@ -9,7 +9,7 @@ data class User (
     val lastName: String ,
     val email: String ,
     val password: String ,
-    val role: String ,
+    val roles: Role ,
     val createdAt: String ,
     val updatedAt: String
  )
